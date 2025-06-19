@@ -1,68 +1,67 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import "tailwindcss";
+/*@import "tailwindcss/preflight"; ??? */
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+*{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: #f78495;
+  overflow-y: hidden;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.homePage {
+  position: relative;
+  overflow: hidden;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+.removeLogo {
+  position: relative;
+  z-index: 20;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.tracking-zone {
+  position: absolute;
+  z-index: 5;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Hjälp!? */
+  background-color: #4a4a4a;  
+}
+
+.tracking-zone.forward {
+  top: 24.8%;
+  left: 55.5%;
+  transform: translate(-50%, -50%);
+}
+
+.tracking-zone.backward {
+  top: 24.8%;
+  left: 46.9%; 
+  transform: translate(-50%, -50%);
+}
+
+.spinner {
+  border: 6px solid #e0e0e0;
+  border-top: 6px solid #36e61c;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+@media (max-width: 1144px) {
+  body {
+    overflow-y: auto; 
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  
 }
