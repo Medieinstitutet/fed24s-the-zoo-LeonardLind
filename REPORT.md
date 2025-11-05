@@ -70,8 +70,8 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-LeonardLind\src\hooks\useAnimals.ts - no-unused-vars - 'err' is defined but never used.,@typescript-eslint/no-unused-vars - 'err' is defined but never used.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller alla krav för både betyg G och VG. Projektet använder context för kommunikation mellan komponenter och reducers för att hantera djurens tillstånd. Routern används för att navigera mellan olika sidor, och felhantering är väl implementerad för bildlänkar och datahämtning. Animeringar vid interaktioner är subtila och välplacerade.
+## 🏆 **Betyg: IG**
+📌 **Motivering:** Tekniskt fel vid AI-analys. Kontrollera manuellt.
 
 💡 **Förbättringsförslag:**  
-Inga större förbättringar behövs, men framtida projekt kan dra nytta av ytterligare dokumentation och kommentarer i koden för att öka läsbarheten och underlätta underhåll.
+Automatisk rättning med AI-assistant misslyckades. Vänligen kontrollera koden manuellt.
