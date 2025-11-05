@@ -71,7 +71,7 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-LeonardLind\src\hooks\useAnimals.ts - no-unused-vars - 'err' is defined but never used.,@typescript-eslint/no-unused-vars - 'err' is defined but never used.
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller alla krav både för G och VG betygsnivå. Studenten har implementerat routing med nested routes och error elements. Datalagring har hanterats korrekt med reducer och context API vilket eliminerar behovet av props-drilling. Koden hanterar trasiga bildlänkar och inkluderar animeringar samt hantering av djurens foderstatus både på översiktssidan och detaljsidan. Studenten använder en custom hook för att hantera datahämtning.
+📌 **Motivering:** Koden uppfyller alla krav för både betyg G och VG. Projektet använder context för kommunikation mellan komponenter och reducers för att hantera djurens tillstånd. Routern används för att navigera mellan olika sidor, och felhantering är väl implementerad för bildlänkar och datahämtning. Animeringar vid interaktioner är subtila och välplacerade.
 
 💡 **Förbättringsförslag:**  
-Koden kan förbättras ytterligare genom att inkludera mer detaljerad loggning och felhantering, särskilt när datahämtning eller dispatch-operationer misslyckas. Det vore också bra att identifiera och optimera delar av applikationen där prestandan eventuellt kan förbättras. Till exempel, skulle komponenterna kunna dra nytta av memoization vid rendering om den prestandafråga börjar synas. Att skriva enhets- och integreringstest skulle också höja kodens robusthet och underhållsbarhet. Det hade dessutom varit fint att se tydligare kommentarer och dokumentation runt mer komplex logik för att underlätta förståelse för framtida underhåll och utveckling.
+Inga större förbättringar behövs, men framtida projekt kan dra nytta av ytterligare dokumentation och kommentarer i koden för att öka läsbarheten och underlätta underhåll.
