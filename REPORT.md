@@ -69,7 +69,7 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-LeonardLind\src\hooks\useAnimals.ts - no-unused-vars - 'err' is defined but never used.,@typescript-eslint/no-unused-vars - 'err' is defined but never used.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyg G. Koden är organiserad och funktionaliteten är implementerad enligt specifikationerna. Dock saknas flera avancerade funktioner som krävs för betyg VG, såsom användning av context och reducers för state management, samt subtila animeringar.
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G. Koden är funktionell och implementerar de nödvändiga funktionerna som beskrivs i uppgiften, såsom routing, djurinteraktioner och hantering av trasiga bildlänkar. Dock saknas flera av de mer avancerade teknikerna och funktionerna som krävs för att uppnå betyget VG.
 
 💡 **Förbättringsförslag:**  
-För att uppnå betyg VG bör projektet implementera context och reducers för state management, använda en custom hook eller tjänst för datahämtning, och lägga till subtila animeringar för att förbättra användarupplevelsen. Dessutom kan felhanteringen förbättras för att täcka fler scenarier, särskilt vid API-anrop och nätverksfel.
+För att uppnå betyget VG bör studenten implementera datahämtning med hjälp av tjänster eller custom hooks, använda context istället för props för komponentkommunikation, och använda reducers för djurhantering. Dessutom bör subtila animeringar läggas till vid interaktioner och sidladdningar för att förbättra användarupplevelsen. Förbättrad error handling och mer konsekventa naming conventions skulle också bidra till en högre kodkvalitet.
