@@ -1,7 +1,6 @@
 # 📌 Rättningsrapport – fed24s-the-zoo-LeonardLind
 
 ## 🎯 Uppgiftens Krav:
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xBUCHFwF)
 # The Zoo
 
 I denna inlämningsuppgift kommer ni att bygga ett zoo. Zoo:t har ett antal djur som kommer behöva matas. 
@@ -66,12 +65,11 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 
 Ha roligt, skratta och lär er massor!
 
-
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-LeonardLind\src\hooks\useAnimals.ts - no-unused-vars - 'err' is defined but never used.,@typescript-eslint/no-unused-vars - 'err' is defined but never used.
 
-## 🏆 **Betyg: IG**
-📌 **Motivering:** Tekniskt fel vid AI-analys. Kontrollera manuellt.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyg G. Koden är organiserad och funktionaliteten är implementerad enligt specifikationerna. Dock saknas flera avancerade funktioner som krävs för betyg VG, såsom användning av context och reducers för state management, samt subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-Automatisk rättning med AI-assistant misslyckades. Vänligen kontrollera koden manuellt.
+För att uppnå betyg VG bör projektet implementera context och reducers för state management, använda en custom hook eller tjänst för datahämtning, och lägga till subtila animeringar för att förbättra användarupplevelsen. Dessutom kan felhanteringen förbättras för att täcka fler scenarier, särskilt vid API-anrop och nätverksfel.
