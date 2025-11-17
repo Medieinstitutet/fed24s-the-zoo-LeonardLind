@@ -68,18 +68,8 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 - /app/repos/fed24s-the-zoo-LeonardLind/src/hooks/useAnimals.ts - no-unused-vars - 'err' is defined but never used.,@typescript-eslint/no-unused-vars - 'err' is defined but never used.
 
-## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller alla krav för betyget G. Koden är välstrukturerad och följer etablerade konventioner för frontend-utveckling. Funktionaliteten som krävs för att uppnå betyget G är implementerad, inklusive användning av en router, hantering av trasiga bildlänkar och användning av en annan teknik än ren CSS för styling. För att uppnå VG skulle projektet behöva inkludera användning av context och reducers, samt subtila animeringar och en custom hook eller tjänster för datahämtning.
+## 🏆 **Betyg: VG**
+📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Koden är välstrukturerad och använder moderna React-koncept som context API och reducers. Användningen av Tailwind CSS för styling är effektiv och bidrar till ett funktionellt och estetiskt tilltalande användargränssnitt. Projektet hanterar trasiga bildlänkar korrekt och inkluderar subtila animeringar som förbättrar användarupplevelsen. Matningslogiken för djuren är korrekt implementerad och uppfyller de specificerade tidskraven både på översiktssidan och detaljsidan.
 
 💡 **Förbättringsförslag:**  
-För att förbättra projektet och nå ett högre betyg, överväg att implementera följande:
-
-1. **Användning av Context och Reducers**: Implementera användning av context för att hantera kommunikation mellan komponenter och använd reducers för hantering av djurdata.
-
-2. **Datahämtning**: Använd en custom hook eller tjänster för att hämta data från API:et för att förbättra kodens modularitet och återanvändbarhet.
-
-3. **Animeringar**: Inkludera subtila animeringar vid interaktioner och sidladdningar för att förbättra användarupplevelsen.
-
-4. **Kodstruktur och Organisation**: Se till att alla komponenter är tydligt uppdelade och placerade i relevanta mappar, och att naming conventions är konsekventa och beskrivande.
-
-5. **Error Handling**: Implementera mer omfattande error handling, särskilt vid API-anrop, för att förbättra robustheten i applikationen.
+För att ytterligare förbättra projektet rekommenderas att lägga till fler kommentarer för att öka kodens läsbarhet och underlätta för framtida utvecklare. Det finns upprepning i hur tidsberäkningar görs i olika komponenter, vilket kan refaktoreras till en gemensam utility-funktion för att följa DRY-principen. Error handling kan förbättras genom att ge mer specifik feedback till användaren när datahämtning misslyckas.
